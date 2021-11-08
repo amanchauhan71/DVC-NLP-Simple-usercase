@@ -3,7 +3,7 @@ tqdm
 dvc
 pandas
 Scipy
-pyymal
+PyYAML==6.0
 scikit-learn
 lxml
 
