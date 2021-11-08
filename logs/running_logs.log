@@ -32,3 +32,33 @@ Traceback (most recent call last):
   File "<string>", line None
 xml.etree.ElementTree.ParseError: unclosed token: line 1, column 2
 [2021-11-08 20:43:34,843: INFO: stage_01_prepare]: >>>>> stage One completed! all the data are saved in local <<<<</n
+[2021-11-08 22:29:08,308: INFO: stage_01_prepare]: 
+********************
+[2021-11-08 22:29:08,308: INFO: stage_01_prepare]: >>>>> stage One started <<<<<
+[2021-11-08 22:29:08,309: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-08 22:29:08,310: INFO: common]: yaml file: params.yaml loaded successfully
+[2021-11-08 22:29:08,310: INFO: common]: created directories at: artifacts\prepared
+[2021-11-08 22:29:08,574: ERROR: data_mgmt]: Skipping the broken line 2002: unclosed token: line 1, column 2
+Traceback (most recent call last):
+  File "d:\mlops\simple_nlp_usecase\dvc-nlp-simple-usercase\src\utils\data_mgmt.py", line 13, in process_posts
+    attr = ET.fromstring(line).attrib
+  File "D:\MLOps\SIMPLE_NLP_USECASE\DVC-NLP-Simple-usercase\env\lib\xml\etree\ElementTree.py", line 1316, in XML
+    return parser.close()
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: unclosed token: line 1, column 2
+[2021-11-08 22:29:08,634: INFO: stage_01_prepare]: >>>>> stage One completed! all the data are saved in local <<<<</n
+[2021-11-08 22:29:42,198: INFO: stage_01_prepare]: 
+********************
+[2021-11-08 22:29:42,198: INFO: stage_01_prepare]: >>>>> stage One started <<<<<
+[2021-11-08 22:29:42,199: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-08 22:29:42,200: INFO: common]: yaml file: params.yaml loaded successfully
+[2021-11-08 22:29:42,201: INFO: common]: created directories at: artifacts\prepared
+[2021-11-08 22:29:42,497: ERROR: data_mgmt]: Skipping the broken line 2002: unclosed token: line 1, column 2
+Traceback (most recent call last):
+  File "d:\mlops\simple_nlp_usecase\dvc-nlp-simple-usercase\src\utils\data_mgmt.py", line 13, in process_posts
+    attr = ET.fromstring(line).attrib
+  File "D:\MLOps\SIMPLE_NLP_USECASE\DVC-NLP-Simple-usercase\env\lib\xml\etree\ElementTree.py", line 1316, in XML
+    return parser.close()
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: unclosed token: line 1, column 2
+[2021-11-08 22:29:42,499: INFO: stage_01_prepare]: >>>>> stage One completed! all the data are saved in local <<<<</n
