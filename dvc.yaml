@@ -12,5 +12,5 @@ stages:
       - prepare.seed
       - prepare.split
     outs:
-      - artifacts/prepared/test.tsv
       - artifacts/prepared/train.tsv
+      - artifacts/prepared/test.tsv
